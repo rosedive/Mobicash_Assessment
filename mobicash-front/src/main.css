@@ -1,0 +1,103 @@
+@tailwind base;
+
+@tailwind components;
+
+.input {
+   appearance: none;
+   display: block; 
+   background: bg-grey-lighter;
+   color: text-grey-darker;
+   border: border-grey-lighter rounded py-3 px-4 leading-tight;
+}
+
+.input:focus {
+  outline: none;
+  background: white;
+  border:grey;
+}
+
+.label {
+  display: block;
+  text-decoration: uppercase tracking-wide text-grey-darker text-xs font-bold mb-2;
+}
+
+.select {
+  appearance: none py-3 px-4 pr-8 block w-full bg-grey-lighter border border-grey-lighter text-grey-darker rounded leading-tight;
+   -webkit-appearance: none;
+}
+
+.select:focus {
+  outline: none;
+  background: white;
+  border:grey;
+}
+
+.link {
+  text-decoration: no-underline;
+}
+
+.link-grey {
+  text-anchor: grey-dark;
+}
+
+.link-grey:hover {
+  text-decoration-color: grey-darker;
+  -moz-text-decoration-color: grey-darker;
+}
+aside{
+  width: 10%;
+  float: left;
+  min-height: 600px;
+  border:1px solid #203A43
+}
+.header{
+  background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 100%;
+}
+.titles{
+  color: rgb(17, 11, 1);
+}
+.titles b{
+  margin-right: 100px;
+}
+strong b{
+  margin-right: 150px
+}
+.signout{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.logo-text{
+  font-size: 30px;
+  color: rgb(170, 238, 173);
+  font-family: cursive;
+}
+.logo-text :hover{
+  text-decoration: none;
+  opacity: 0.5;
+  color:orange;
+}
+.signinbtn{
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  background-color: rgb(121, 151, 14);
+}
+.signupbtn{
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  background-color: rgb(223, 169, 21);
+  color:white;
+}
+@tailwind utilities;
