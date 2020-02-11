@@ -27,6 +27,7 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   name: 'Signup',
@@ -73,4 +74,3 @@ export default {
   }
 }
 </script>
-
