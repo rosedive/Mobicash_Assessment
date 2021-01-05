@@ -13,7 +13,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "jspdf": "^1.5.3",
     "pdfmake": "^0.1.63",
     "vue": "^2.5.2",
